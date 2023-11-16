@@ -1,7 +1,7 @@
-name: Automated API tests using Postman CLI
+name: Scheduled/ Crone Job Checking the test [Every 5 Hours]
 on: 
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "0 */5 * * *"
 
 jobs:
   automated-api-tests:
