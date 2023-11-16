@@ -21,4 +21,8 @@ Details about GitHub Actions workflows and scripts.
 
 Show the build status badge.
 
-![example workflow](https://github.com/Aravindh-s14/API_Automation_Project/actions/workflows/postman.yml/badge.svg)
+Status Badge<br>
+  - For New Commits <br>
+    - ![example workflow](https://github.com/Aravindh-s14/API_Automation_Project/actions/workflows/postman.yml/badge.svg)
+  - Scheduled/Crone_Job [Every 5 hour] <br>
+    - [![Automated API tests using Postman CLI](https://github.com/Aravindh-s14/API_Automation_Project/actions/workflows/postman_cronJob.yml/badge.svg)](https://github.com/Aravindh-s14/API_Automation_Project/actions/workflows/postman_cronJob.yml)
