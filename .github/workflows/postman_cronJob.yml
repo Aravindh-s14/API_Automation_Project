@@ -1,4 +1,4 @@
-name: Scheduled/ Crone Job Checking the test [Every 5 Hours]
+name: Scheduled / Crone Job Checking the test [Every 5 Hours]
 on: 
   schedule:
     - cron: "0 */5 * * *"
