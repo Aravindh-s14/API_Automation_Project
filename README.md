@@ -14,13 +14,10 @@ This repository utilizes GitHub Actions for continuous integration and continuou
 
 Details about GitHub Actions workflows and scripts.
 
-- `.github/workflows/build.yml`: Configuration for the build workflow.
-- `.github/workflows/deploy.yml`: Configuration for the deployment workflow.
+- `.github/workflows/postman.yml`: Configuration for the build workflow upon new code commit/push.
+- `.github/workflows/postman_cronJob.yml`: Cron job scheduled for every 5 hours to check the test.
 
 ### Build Status
-
-Show the build status badge.
-
 Status Badge<br>
   - For New Commits <br>
     - ![example workflow](https://github.com/Aravindh-s14/API_Automation_Project/actions/workflows/postman.yml/badge.svg)
