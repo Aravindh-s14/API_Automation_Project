@@ -1,7 +1,7 @@
-name: Scheduled / Crone Job Checking the test [Every 5 Hours]
+name: Scheduled / Crone Job Checking the test [Every day at 11:11 AM]
 on: 
   schedule:
-    - cron: "0 */5 * * *"
+    - cron: "11 11 * * *"
 
 jobs:
   automated-api-tests:
