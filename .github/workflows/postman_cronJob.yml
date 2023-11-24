@@ -1,11 +1,13 @@
 name: Scheduled / Crone Job Checking the test [Every day at 11:11 AM]
 on: 
   schedule:
-    - cron: "45 11 * * *"
+    - cron: "00 05 * * *"
 
 jobs:
   automated-api-tests:
     runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Kolkata' 
     steps:
       - uses: actions/checkout@v3
       - name: Install Postman CLI
